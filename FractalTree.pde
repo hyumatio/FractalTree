@@ -8,13 +8,13 @@ public void setup()
 } 
 public void draw() 
 {   
-	background(135, 206, 235); 
-  fill(81, 127, 25);
-  stroke(81, 127, 25);
+	background(119,136,153); 
+  fill(128,128,128);
+  stroke(128,128,128);
   rect(0,380,640,180);
 	stroke(255);  
 	line(320,480,320,380);   
-	drawBranches(320,380,80,3*(Math.PI)/2);  
+	drawBranches(320,380,100,3*(Math.PI)/2);  
   
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
